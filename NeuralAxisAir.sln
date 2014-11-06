@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralAxis.Blog.ExternalApis", "NeuralAxis.Blog.ExternalApis\NeuralAxis.Blog.ExternalApis.csproj", "{76A8A03B-BDBA-40A3-81D8-B39E41C624BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralAxisAir.Notifications", "NeuralAxisAir.Notifications\NeuralAxisAir.Notifications.csproj", "{76A8A03B-BDBA-40A3-81D8-B39E41C624BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
