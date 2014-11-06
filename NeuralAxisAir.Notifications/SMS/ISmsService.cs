@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace NeuralAxisAir.Notifications
 {
-    public class Passenger
+    public interface ISmsService
     {
-        public string PhoneNumber { get; set; }
+        void SendTextMessage(string phoneNumber, string message);
     }
 }

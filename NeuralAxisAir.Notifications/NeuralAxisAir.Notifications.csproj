@@ -7,8 +7,8 @@
     <ProjectGuid>{76A8A03B-BDBA-40A3-81D8-B39E41C624BB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NeuralAxis.Blog.ExternalApis</RootNamespace>
-    <AssemblyName>NeuralAxis.Blog.ExternalApis</AssemblyName>
+    <RootNamespace>NeuralAxisAir.Notifications</RootNamespace>
+    <AssemblyName>NeuralAxisAir.Notifications</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,9 +40,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delay.cs" />
-    <Compile Include="Notifications.cs" />
+    <Compile Include="PassengerNotifications.cs" />
     <Compile Include="Passenger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SMS\ISmsService.cs" />
+    <Compile Include="SMS\TwilioSmsService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
