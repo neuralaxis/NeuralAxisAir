@@ -23,7 +23,7 @@ namespace NeuralAxis.Blog.ExternalApis
             var webClient = new WebClient();
             webClient.UploadValues(
                 new Uri(
-                    "https://api.twilio.com/2010-04-01/Accounts/AC5ef8732a3c49700934481addd5ce1659/SMS/Messages.json"),
+                    "https://api.twilio.com/2010-04-01/Accounts/{APIKEY}/SMS/Messages.json"),
                 "POST", data);
         }
     }
