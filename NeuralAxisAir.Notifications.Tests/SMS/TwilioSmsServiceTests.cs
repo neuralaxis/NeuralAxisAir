@@ -15,7 +15,7 @@ namespace NeuralAxisAir.Notifications.Tests.SMS
         
         [TestMethod]
         [TestCategory("Integration Test")]
-        public void SendActualSMStoTwilio()
+        public void SendActualSMSRequestToTwilio()
         {
             var twilio = new TwilioSmsService();
             twilio.SendTextMessage(QA_CELL_PHONE, "Hello from Twilio");
